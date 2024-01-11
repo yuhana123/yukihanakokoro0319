@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slick Carousel </title>
+    <!--置入套件專用CSS
+    (必須要放在自己寫的CSS前面，才可以覆蓋預設的設定)-->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <style>
+    /*基本設定*/
+    body {font-family: Arial, Helvetica, 'Noto Sans TC', sans-serif;}
+    a {color: rgb(255, 164, 164); text-decoration: none;}
+    p, li {line-height: 2px;}
+  
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@600&display=swap');
+
+    </style>
+</head>
+<body>
+<div class="imageP"></div>
+
+  <div class="card-imageB">
+    <img src="image/8.png" class="card-imageD">
+    <h1>嗯哼</h1>
+    <h2>Yukihana Kokoro</h2>
+    <h3><P>大家安安!我是來自森林的白化症魔法松鼠精靈，目前就讀魔法</P>
+        <P>森林大學，因為人際關係學分被當掉所以來人類世界重修，踏</P>
+        <P>上VSquirrel，然後我隨然是松鼠但我不愛吃果跟松果，但我喜</P>
+        <P>歡吃蜜汁豬肉乾，歡迎餵食。</P></h3>
+    </div>
+
+
+<section class="slick-slider">
+  <div style="width:100%"><img style="width:100%" src="image/9.png"> </div>
+  <div style="width:100%"><img style="width:100%" src="image/10.png" /></div>
+  <div style="width:100%"><img style="width:100%" src="image/11.png" /></div>
+</section>
+
+
+<!--置入 JQuery 套件（可用用線上的，也可以自己下載下來）-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<!--置入套件專用 JavaScript-->
+<script src="js/slick.min.js"></script>
+<!--設定相關環境參數-->
+<script type="text/javascript">
+$('.slick-slider').slick({
+  arrows: true,//顯示左右箭頭
+  dots: true,//顯示小圓點
+  adaptiveHeight:false,
+  infinite: true,//循環播放
+  slidesToShow: 1,//設定一次出現的圖片數量（需搭配slider寬度）
+  slidesToScroll: 1,//設定一次輪動的圖片數量
+  autoplay: true,//自動播放
+  autoplaySpeed: 2000,//輪動的間隔時間
+});
+</script>
+
+</script>
+<div class="wrap-all">
+   
+    <section>
+        <a target="_blank" href="https://www.twitch.tv/yukihana0319">
+            <div class="card A">
+            <div class="card-image"></div>
+            <div class="card-introA">
+                <h1>委託嗯哼</h1>
+                <P>詳細委託資訊及方式</P>
+            </div>
+        </a>
+        </div>
+        <a target="_blank" href="https://www.twitch.tv/yukihana0319">
+            <div class="card B">
+            <div class="card-image"></div>
+            <div class="card-intro">
+                <h1>Twitch</h1>
+                <P>會開台，來跟我聊天!</P>
+            </div>
+        </a>
+        
+        </div>
+        <a target="_blank" href="https://www.twitch.tv/yukihana0319">
+            <div class="card C">
+            <div class="card-image"></div>
+            <div class="card-introA">
+                <h1>Twitter</h1>
+                <P>作品展示，日常互動</P>
+            </div>
+        </a>
+    </section>
+
+    <section>
+        <a target="_blank" href="https://www.instagram.com/yukihana_kokoro/">
+            <div class="card D">
+            <div class="card-image"></div>
+            <div class="card-intro">
+                <h1>Instagram</h1>
+                <P>作品展示，日常互動</P>
+            </div>
+        </a>
+        
+        </div>
+        <a target="_blank" href="https://discord.gg/xKUEDBawTs">
+            <div class="card E">
+            <div class="card-image"></div>
+            <div class="card-introA">
+                <h1>Discord</h1>
+                <P>開台通知、語音聊天、日常互動</P>
+            </div>
+        </a>
+        
+        </div>
+        <a target="_blank" href="https://www.twitch.tv/yukihana0319">
+            <div class="card F">
+            <div class="card-image"></div>
+            <div class="card-intro">
+                <h1>Facebook</h1>
+                <P>作品展示，日常互動</P>
+            </div>
+        </a>
+        
+        </div>
+    
+
+    </section>
+
+   
+</div>
+<div class="imageP"></div>
+</body>
+</html>
